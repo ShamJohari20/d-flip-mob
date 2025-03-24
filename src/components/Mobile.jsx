@@ -1,4 +1,4 @@
-import '../css/Mobile.css'
+import '../css/mobile.css'
 
 
 const Mobile = (props) =>{
