@@ -1,5 +1,6 @@
 import Mobile from "./components/Mobile"
 import './App.css'
+import Laptop from "./components/Laptop"
 
 
 function App() {
@@ -69,7 +70,7 @@ function App() {
 
   return (
     <>
-      <h1 id='main-heading'>Flipkart Component</h1>
+      <h1 className='main-heading'>Flipkart Mobile</h1>
       <div className='main'>
 
         <Mobile
@@ -128,6 +129,27 @@ function App() {
           free={Mob[3].free}
         />
 
+        <h1 className='main-heading'>Flipkart Laptop</h1>
+
+
+        <Laptop
+           img = "https://rukminim2.flixcart.com/image/312/312/xif0q/computer/q/a/z/anv15-41-gaming-laptop-acer-original-imagznanfgmdt8w7.jpeg?q=70"
+
+           name = "Acer Nitro V AMD Ryzen 7 Octa Core 7735HS - (16 GB/512 GB SSD/Windows 11 Home/6 GB Graphics/NVIDIA GeForce RTX 3050) ANV15-41 Gaming Laptop  (15.6 Inch, Obsidian Black, 2.1 Kg)"
+
+           f1 = "AMD Ryzen 7 Octa Core Processor"
+           f2 = "16 GB DDR5 RAM"
+           f3 = "Windows 11 Operating System"
+           f4 = "512 GB SSD"
+           f5 = "39.62 cm (15.6 Inch) Display"
+
+           price = "68,990"
+           aprice = "87,499"
+           per = "21"
+           free = "10,000 "
+           
+        />
+        
 
       </div>
 
